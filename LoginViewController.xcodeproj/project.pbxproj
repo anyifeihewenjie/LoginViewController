@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F9865B81ECC26AF00D293DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9865B71ECC26AF00D293DD /* main.m */; };
+		9F9865BB1ECC26AF00D293DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9865BA1ECC26AF00D293DD /* AppDelegate.m */; };
+		9F9865BE1ECC26B000D293DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9865BD1ECC26B000D293DD /* ViewController.m */; };
+		9F9865C11ECC26B000D293DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9865BF1ECC26B000D293DD /* Main.storyboard */; };
+		9F9865C31ECC26B000D293DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F9865C21ECC26B000D293DD /* Assets.xcassets */; };
+		9F9865C61ECC26B000D293DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9865C41ECC26B000D293DD /* LaunchScreen.storyboard */; };
+		9F9865D71ECC275300D293DD /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9865CF1ECC275300D293DD /* LoginController.m */; };
+		9F9865D81ECC275300D293DD /* LoginController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F9865D01ECC275300D293DD /* LoginController.xib */; };
+		9F9865D91ECC275300D293DD /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9865D21ECC275300D293DD /* LoginView.m */; };
+		9F9865DA1ECC275300D293DD /* LoginCircleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9865D41ECC275300D293DD /* LoginCircleAnimationView.m */; };
+		9F9865DB1ECC275300D293DD /* LoginAnimationButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9865D61ECC275300D293DD /* LoginAnimationButton.m */; };
+		9F9865E01ECC277A00D293DD /* account.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9865DC1ECC277A00D293DD /* account.png */; };
+		9F9865E11ECC277A00D293DD /* password.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9865DD1ECC277A00D293DD /* password.png */; };
+		9F9865E21ECC277A00D293DD /* 我的物泊背景头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9865DE1ECC277A00D293DD /* 我的物泊背景头像.png */; };
+		9F9865E31ECC277A00D293DD /* 我的物泊背景头像@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9865DF1ECC277A00D293DD /* 我的物泊背景头像@2x.png */; };
+		9F9865E71ECC291800D293DD /* bgImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F9865E61ECC291800D293DD /* bgImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F9865B31ECC26AE00D293DD /* LoginViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F9865B71ECC26AF00D293DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F9865B91ECC26AF00D293DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F9865BA1ECC26AF00D293DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F9865BC1ECC26AF00D293DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F9865BD1ECC26B000D293DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F9865C01ECC26B000D293DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F9865C21ECC26B000D293DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F9865C51ECC26B000D293DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F9865C71ECC26B100D293DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9865CE1ECC275300D293DD /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		9F9865CF1ECC275300D293DD /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		9F9865D01ECC275300D293DD /* LoginController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginController.xib; sourceTree = "<group>"; };
+		9F9865D11ECC275300D293DD /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		9F9865D21ECC275300D293DD /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		9F9865D31ECC275300D293DD /* LoginCircleAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginCircleAnimationView.h; sourceTree = "<group>"; };
+		9F9865D41ECC275300D293DD /* LoginCircleAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginCircleAnimationView.m; sourceTree = "<group>"; };
+		9F9865D51ECC275300D293DD /* LoginAnimationButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginAnimationButton.h; sourceTree = "<group>"; };
+		9F9865D61ECC275300D293DD /* LoginAnimationButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginAnimationButton.m; sourceTree = "<group>"; };
+		9F9865DC1ECC277A00D293DD /* account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = account.png; sourceTree = "<group>"; };
+		9F9865DD1ECC277A00D293DD /* password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = password.png; sourceTree = "<group>"; };
+		9F9865DE1ECC277A00D293DD /* 我的物泊背景头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的物泊背景头像.png"; sourceTree = "<group>"; };
+		9F9865DF1ECC277A00D293DD /* 我的物泊背景头像@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的物泊背景头像@2x.png"; sourceTree = "<group>"; };
+		9F9865E41ECC27D700D293DD /* PsuerpPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PsuerpPrefixHeader.pch; sourceTree = "<group>"; };
+		9F9865E51ECC27D700D293DD /* PsuerpCustomHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PsuerpCustomHeader.h; sourceTree = "<group>"; };
+		9F9865E61ECC291800D293DD /* bgImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F9865B01ECC26AE00D293DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F9865AA1ECC26AE00D293DD = {
+			isa = PBXGroup;
+			children = (
+				9F9865B51ECC26AE00D293DD /* LoginViewController */,
+				9F9865B41ECC26AE00D293DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F9865B41ECC26AE00D293DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F9865B31ECC26AE00D293DD /* LoginViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F9865B51ECC26AE00D293DD /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F9865CD1ECC274400D293DD /* LoginViewController */,
+				9F9865B91ECC26AF00D293DD /* AppDelegate.h */,
+				9F9865BA1ECC26AF00D293DD /* AppDelegate.m */,
+				9F9865BC1ECC26AF00D293DD /* ViewController.h */,
+				9F9865BD1ECC26B000D293DD /* ViewController.m */,
+				9F9865BF1ECC26B000D293DD /* Main.storyboard */,
+				9F9865E41ECC27D700D293DD /* PsuerpPrefixHeader.pch */,
+				9F9865E51ECC27D700D293DD /* PsuerpCustomHeader.h */,
+				9F9865DC1ECC277A00D293DD /* account.png */,
+				9F9865DD1ECC277A00D293DD /* password.png */,
+				9F9865DE1ECC277A00D293DD /* 我的物泊背景头像.png */,
+				9F9865DF1ECC277A00D293DD /* 我的物泊背景头像@2x.png */,
+				9F9865E61ECC291800D293DD /* bgImage.png */,
+				9F9865C21ECC26B000D293DD /* Assets.xcassets */,
+				9F9865C41ECC26B000D293DD /* LaunchScreen.storyboard */,
+				9F9865C71ECC26B100D293DD /* Info.plist */,
+				9F9865B61ECC26AF00D293DD /* Supporting Files */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		9F9865B61ECC26AF00D293DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F9865B71ECC26AF00D293DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F9865CD1ECC274400D293DD /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F9865CE1ECC275300D293DD /* LoginController.h */,
+				9F9865CF1ECC275300D293DD /* LoginController.m */,
+				9F9865D01ECC275300D293DD /* LoginController.xib */,
+				9F9865D11ECC275300D293DD /* LoginView.h */,
+				9F9865D21ECC275300D293DD /* LoginView.m */,
+				9F9865D31ECC275300D293DD /* LoginCircleAnimationView.h */,
+				9F9865D41ECC275300D293DD /* LoginCircleAnimationView.m */,
+				9F9865D51ECC275300D293DD /* LoginAnimationButton.h */,
+				9F9865D61ECC275300D293DD /* LoginAnimationButton.m */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F9865B21ECC26AE00D293DD /* LoginViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9865CA1ECC26B100D293DD /* Build configuration list for PBXNativeTarget "LoginViewController" */;
+			buildPhases = (
+				9F9865AF1ECC26AE00D293DD /* Sources */,
+				9F9865B01ECC26AE00D293DD /* Frameworks */,
+				9F9865B11ECC26AE00D293DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginViewController;
+			productName = LoginViewController;
+			productReference = 9F9865B31ECC26AE00D293DD /* LoginViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F9865AB1ECC26AE00D293DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = esteel;
+				TargetAttributes = {
+					9F9865B21ECC26AE00D293DD = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BJPJ2657Q5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9F9865AE1ECC26AE00D293DD /* Build configuration list for PBXProject "LoginViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F9865AA1ECC26AE00D293DD;
+			productRefGroup = 9F9865B41ECC26AE00D293DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F9865B21ECC26AE00D293DD /* LoginViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F9865B11ECC26AE00D293DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9865E11ECC277A00D293DD /* password.png in Resources */,
+				9F9865C61ECC26B000D293DD /* LaunchScreen.storyboard in Resources */,
+				9F9865E31ECC277A00D293DD /* 我的物泊背景头像@2x.png in Resources */,
+				9F9865E01ECC277A00D293DD /* account.png in Resources */,
+				9F9865D81ECC275300D293DD /* LoginController.xib in Resources */,
+				9F9865E71ECC291800D293DD /* bgImage.png in Resources */,
+				9F9865E21ECC277A00D293DD /* 我的物泊背景头像.png in Resources */,
+				9F9865C31ECC26B000D293DD /* Assets.xcassets in Resources */,
+				9F9865C11ECC26B000D293DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F9865AF1ECC26AE00D293DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9865BE1ECC26B000D293DD /* ViewController.m in Sources */,
+				9F9865DA1ECC275300D293DD /* LoginCircleAnimationView.m in Sources */,
+				9F9865D71ECC275300D293DD /* LoginController.m in Sources */,
+				9F9865BB1ECC26AF00D293DD /* AppDelegate.m in Sources */,
+				9F9865DB1ECC275300D293DD /* LoginAnimationButton.m in Sources */,
+				9F9865D91ECC275300D293DD /* LoginView.m in Sources */,
+				9F9865B81ECC26AF00D293DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F9865BF1ECC26B000D293DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F9865C01ECC26B000D293DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F9865C41ECC26B000D293DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F9865C51ECC26B000D293DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F9865C81ECC26B100D293DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F9865C91ECC26B100D293DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F9865CB1ECC26B100D293DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BJPJ2657Q5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LoginViewController/PsuerpPrefixHeader.pch";
+				INFOPLIST_FILE = LoginViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esteel.LoginViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F9865CC1ECC26B100D293DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BJPJ2657Q5;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LoginViewController/PsuerpPrefixHeader.pch";
+				INFOPLIST_FILE = LoginViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.esteel.LoginViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F9865AE1ECC26AE00D293DD /* Build configuration list for PBXProject "LoginViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9865C81ECC26B100D293DD /* Debug */,
+				9F9865C91ECC26B100D293DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F9865CA1ECC26B100D293DD /* Build configuration list for PBXNativeTarget "LoginViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F9865CB1ECC26B100D293DD /* Debug */,
+				9F9865CC1ECC26B100D293DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F9865AB1ECC26AE00D293DD /* Project object */;
+}

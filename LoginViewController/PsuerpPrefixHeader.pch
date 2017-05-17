@@ -1,0 +1,15 @@
+//
+//  PsuerpPrefixHeader.pch
+//  Psuerp
+//
+//  Created by anyifei’s Mac on 2017/4/21.
+//  Copyright © 2017年 esteel. All rights reserved.
+//
+
+#ifndef PsuerpPrefixHeader_pch
+#define PsuerpPrefixHeader_pch
+#import "PsuerpCustomHeader.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PsuerpPrefixHeader_pch */
